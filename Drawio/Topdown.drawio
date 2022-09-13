@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="M8WhSbIcOK3nKUVIzFYr" name="Page-1">
-        <mxGraphModel dx="699" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="594" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="20" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="10">
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;" parent="1" source="2" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -32,7 +32,7 @@
                 <mxCell id="3" value="Log Program" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="10" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="5" target="19">
+                <mxCell id="24" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="1" source="5" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="340" y="190"/>
@@ -40,7 +40,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="21">
+                <mxCell id="25" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="21" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="340" y="190" as="sourcePoint"/>
                         <Array as="points">
@@ -51,22 +51,22 @@
                 <mxCell id="5" value="Process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="110" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="" style="edgeStyle=none;rounded=0;html=1;" edge="1" parent="1" source="7" target="22">
+                <mxCell id="26" value="" style="edgeStyle=none;rounded=0;html=1;" parent="1" source="7" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="130" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="get log_number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="10" value="get logNumber" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="60" y="210" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="weight = (log_number * 20)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="19" value="weight = (logNumber&amp;nbsp;* 20)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="205" y="210" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="amount = (1100 * weight)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="21" value="amount = (1100 * weight)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="350" y="210" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="console.log(&quot;amount)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="22" value="console.log(&quot;amount)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="210" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
