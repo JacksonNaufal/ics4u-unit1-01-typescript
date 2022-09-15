@@ -10,13 +10,16 @@ import promptSync from 'prompt-sync'
 
 const prompt = promptSync()
 
+const twenty = 20
+const elevenhun = 1100
+
 // let ageNumber: number
 
 const ageString = prompt('How long is your wood?(m) ')
 
 const logNumber = parseFloat(ageString)
-const overallLog = logNumber * 20
-const answer = 1100 / overallLog
+const overallLog = logNumber * twenty
+const answer = elevenhun / overallLog
 console.log(`Amount of logs is >  ${answer}`)
 
 console.log('\nDone.')
